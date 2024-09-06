@@ -1,0 +1,35 @@
+td,th {border: 1px solid black;
+    padding: 10px;
+
+}
+
+table {
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+
+
+/*  COMENTAIRE DANS LE CSS
+ */
+
+
+ td,th {border: 1px solid black;
+
+ }
+
+ table {
+    border-collapse: collapse;
+ }
+
+
+ /* tabelaeu simple 
+ table table {
+    border-collapse: collapse;
+ }*/
+
+ td,th {
+    border: 1px solid green;
+    padding: 10px ;
+ }
+
