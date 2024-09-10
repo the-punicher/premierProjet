@@ -33,3 +33,23 @@ table {
     padding: 10px ;
  }
 
+
+ label,input {
+   display: block;
+ }
+
+ /* voici un   explemple de  selecteur */
+
+ input[type="checkbox"],
+ input[type="checkbox"] + label,
+ input[type="radio"],
+ input[type="radio"] + label {
+      display: inline;
+      margin-top: 15px;
+ }
+
+
+li input,li label {
+   display: inline;
+}
+ 

@@ -1,0 +1,70 @@
+h1{
+    color: red;
+}
+h2 {
+    color: #476b15;
+    /* ici on soiligne */
+    text-decoration:  underline;
+    /*ici on souligne avec des vaguelette */
+    text-decoration-style:wavy;
+}
+
+.mauve {
+    color:#d151e5 ;
+
+}
+/*le . et une classe et le 3em et 3 fois la taile de lecriture */
+/* paddige marge interier et margigue et marge exeterieure/ poiur le voir faire inspecte */
+ .gros {
+
+     font-size: 3em;
+     border: 2px solid salmon;
+     padding: 20px;
+     margin: 40px;
+     text-align: center;
+ }
+
+ label,input {
+    display: block;
+ }
+
+
+
+.form label,.form input {
+    width: 30%;
+    margin-left: auto ;
+    margin-right: auto ;
+
+
+    /* Cela permer de cedntre les label et les imputs dans le formuliare */
+}
+.form input[type="submit"]{
+margin-top: 1em;
+}
+
+#jaune{
+    color: #deaf15;
+}
+
+
+#bleu{
+    color:blue ;
+}
+
+   /*Les prioritée :
+   nom de lelement  : ex li ,input , label
+   
+   LES CLASSE : .mauve  .gros
+   
+   les id : #jaune #super-gros -h1
+
+   la prioriété style dans la balise */
+
+
+
+.rond {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 50%;
+}

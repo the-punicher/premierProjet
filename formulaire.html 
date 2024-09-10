@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <!-- LES IMPUTS -->
+        <!-- Les imputs tex permette decrire des texte cours  -->
+         <!-- pour l accessibiliteé lie avec son imput dans la propriete name -->
+         <fieldset>
+            
+            <legend>Mes trois premierr input</legend>
+        <form>
+        <label for="premier"> mon premier imputs</label>
+       
+        <input type="text" name="premier" placeholder="ecrivez du texte ">
+    
+        <!-- la priorite STEP permer de monter de 5 en 5  -->
+        <label for="number"> mon premier number</label>
+        <input type="number" name="number" min="5" max="100" step="5">
+
+
+        <label for="premier"> mon premier imputs</label>
+        <input type="password" name="secret "minlength="6" placeholder="ecrivez votre mot de passe ">
+
+        <label for="date">ma date </label>
+        <input type="date" name="date" >
+            </fieldset>
+        <label for="range "> Mon input range</label>
+        <input type="range" name="range">
+
+        <!-- Les couleur retourne avec cet imput sont hexadecimales ex hatage abf658 -->
+
+        <label for="color"> Mon input color</label>
+        <input type="color" name="color">
+
+
+       
+        <input type="checkbox" name="check">
+        <label for="check"> 3 roues </label> 
+                <!-- Permer un seul choix mais le name dois etre le meme  -->
+        <div>  
+            <input type="radio" name="radio" value=Homme >
+            <label for="radio">Homme</label>  
+            
+            <input type="radio" name="radio" value="Femme">
+            <label for="radio"> Femme </label>
+        </div>
+
+        <label for="mylife">Raconte ta life</label>
+        <textarea name="mylife" id="" cols="30" rows="20" placeholder=" Raconte ta vie fabuleuse"></textarea>
+        
+        <label for="select">Ma selection  de bagniole </label>
+        <select name="select" >
+             <option value="dacia">dacia</option> 
+             <option value="lada">lada</option> 
+             <option value="merco">merco</option> 
+             <option value="multipla">multipla</option> 
+        </select>
+
+        <!-- permer la validation du formilaire  -->
+            <input type="submit" value="valide">
+
+        </form>
+
+    </body>
+</html
+
+
