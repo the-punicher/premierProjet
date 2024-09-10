@@ -1,0 +1,30 @@
+h2{
+    color: rgba(0, 89, 255, 0.808);
+}
+
+.span{
+    color: rgba(0, 89, 255, 0.808);
+}
+td,th {
+    border: 1px solid black;
+    padding: 10px ;
+ }
+
+
+ label,input {
+   display: block;
+ }
+ 
+
+ table {
+    border-collapse: collapse;
+ }
+
+ .image{
+    float:right;
+ 
+ }
+ 
+
+ /* correction */
+

@@ -1,0 +1,34 @@
+h2{
+    color: rgba(0, 0, 255, 0.781);
+    /* ici cest pour coloreie la coueur autour du texe (sourlignier )*/
+    background-color: rgba(60, 60, 153, 0.795);
+ }
+ .bleu{
+    color: rgba(0, 0, 255, 0.781);
+ }
+ .gras{
+    /* ici la police devien gras*/
+    font-weight: bold;
+
+ }
+
+ th,td,th {
+    border: 1px solid black;
+ }
+
+ table{
+   border-collapse:collapse;
+ }
+/* avec cette formule on colorie tout les tr (nth)*/ 
+ tr:nth-child(2n){
+    background-color:gray;
+ }
+
+
+ .div{
+   margin-top: 2px;
+ }
+ .image{
+   float:right;
+
+}

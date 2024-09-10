@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>javascript</title>
+</head>
+<body>
+    <script>
+        //commentaire en javascript
+        /* commentaire multiligne*/
+
+        // LES VARIABLES 
+
+        let chiffre = 4;
+        console.log(chiffre);
+
+        console.log(chiffre + 4);
+        //le texet en programation sappelle 
+        //une chaine caractrére ou une string
+        let texte ="je suis beau !";
+        console.log(texte);
+        texte = "je suis moche !";
+        console.log(texte);
+
+        const colere ="je suis en colere";
+        console.log(colere);
+        // colere ="hahahahahhahaaaa"
+        //console.log(colere);
+        //reasigner une valeur constante cause une erreur
+
+        //LES TYPES DE DONNEE
+
+                     //Les nombres 
+
+                     let nbr = 4;
+                    let virgule = 5.2;
+                    let negatif = -27;
+                            //le nombres maximal possible en js et :    //2 puissance 53 - 1
+
+
+               //les chaine  de caracteres 
+               let mot= "chienne";
+               let caracteres =" de caractere";
+               //exple de concatenation
+               //la concatanation et la fusion ebtre deux sting
+               let pharse = mot + caracteres;
+               console.log(pharse);
+
+                //les boolou les booleen
+
+                    let oui = true;
+                    let non = false;
+
+                //Les objets ou precisemment les prototype (js)
+
+                let voiture ={
+                    marque:"lada",
+                    portes: 3,
+                    etat: false
+                }
+                    console.log(voiture)
+                    //pour recupere en particulier une  priorite d un objet
+                    console.log(voiture.portes)
+
+                    // Tableau 
+
+                    let panier =["fraise","pomme","banane",5,true,"AUTRUCHE"];
+                    console.log(panier)
+                    console.log(panier[2])
+
+                    //Null et undefined
+                    // le null et une valeur intermediare le temp que la valeur change (vide au depart)
+                    // undefined une variable sans titre non difinis
+                    let guillaume = null;
+                    let fabien = undefined;
+
+                    //Les conditions
+
+                    let color ="6";
+                    if( color =="6"){
+                        console.log('oui il est 6');
+                    }else{
+                        console.log("non il n'est pas 6");
+                    }
+
+
+                    let chien = "labrador";
+                    let chat = "shinx";
+
+                    if ( chien == "labrador" && chat == "sphinx") {
+                        //on verifie le chien et le chat     
+                    }
+
+                    if ( chien == "labrador" || chat == "sphinx") {
+                        //on verifie le chien ou le chat       
+                    }
+
+                    //j' ai un chaffe eau de 50 litres,il et a 15 litres actuellement 
+                    //1 .Mettre la valeur en littre dans une variable 
+                    // 2.faire la verification que ma variabiable soit entre 10 litres et 30 litres
+                    //3 . si cest bon envoyer un message dna sla console.log pour dire que tout et ok 
+
+           
+                    let chaffeeau = 15;
+                    if (chaffeeau >= 10 && chaffeeau <= 30) {
+
+                    console.log (" le chauffe eau et bien en valeur litre demander")  
+                    }
+
+                    
+                
+                
+                
+                  
+
+    </script>
+</body>
+</html>
