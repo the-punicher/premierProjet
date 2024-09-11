@@ -7,6 +7,8 @@
     <title>javascript</title>
 </head>
 <body>
+
+
     <script>
         //commentaire en javascript
         /* commentaire multiligne*/
@@ -109,11 +111,111 @@
                     console.log (" le chauffe eau et bien en valeur litre demander")  
                     }
 
-                    
+                    // S avec des maths 
+
+                    // addition 
+
+                    let addition = 1 + 1; // 2
+                    let soustraction = 4 -3 ;// 1
+                    let multiplication  = 4 *3 // 12
+                    let division = 8 /2 // 4
+                    let modulo = 9 % 4; // 1 
+
+                    // puissance 
+
+                    let puissance = 2**4 // 16
+                    let power = Math.pow(2,4);// 16
+                    let rand =Math.random(); //genere aleatioirement 
+                    //un chiffre entre 0 et un chiffre <1
+                    // gernere un chiffre en 0 et 99,999
+                    //l arondie pour ariver a 99
+                    let cent = Math.floor(Math.random() * 100)
+                    // Math.florr (0,448 *100)
+                    // Math.floor(44.8)
+                    // Math.floor arrondie a lunite en desssus
+                    // 44
+
+                    // Les bloucles
+
+                        //expemple de blocke simple de type for
+
+                       for( i  = 0; i < 5001; i++){
+                        console.log(i * 2)
+                       } 
+
+                        //Que ce passe til ?
+                        /*
+                        La boucle commence avec un compteur "i" qui commence par 0
+                        la boucle sarretera quant "i" aura atein 5000.
+                        avec "i++" la boucle a chaque tour de boucle "i" auguement de 1
+                        dans la console log i est multiplié par 2, 5000 fois                       
+                        */
+
+
+                       for (let index = 0; index < panier.length; index++) {
+                            console.log(panier[index])
+                       }
+
+                       let bagnole =["mazda", "lada", "audi", "crysler", "volkswagene"]  
+
+                     for (fruit of bagnole) {
+                        console.log(fruit)
+                            
+                     }
+
+                        // FONCTIONS 
+
+                        function multiplisParDeux(nbr) {
+                            console.log(nbr * 2)
+                        }
+
+                        multiplisParDeux(70)
+                        multiplisParDeux(98)
+                        multiplisParDeux(41.96)
+
+                        //concatenation
+
+
+                        let p = "coucou" + " c'est nous";
+                        console.log(p) 
+
+                        let k = "j'ais " + 5 +" chiens";
+                        console.log(k)
                 
-                
-                
-                  
+                        // a ne pas faire
+
+                        let u = "10"+ 4;//104 cause des erreurs dans votre code 
+                        console.log(u)
+                        
+                        let v =45
+                        console.log("j'ais " + v + " enfants")
+
+                        //les litetteraux 
+
+                        console.log(`j'ais ${v} enfants`);
+
+                        // if ecriture termaire 
+
+                        let bb = 23
+
+                        // on verifie que bb et superieur a 18 
+                        // si  c'est vrai il fera les instrution apres le ?
+                        // si c'est faux il fera les instrution  apres les :
+
+                         bb > 26 ? console.log("tu et majeur !") : console.log("on verra ca quant tu sera grand")  
+
+                        // l'operateur de coalescence des nuls
+
+                        //l'operrateur de coalescence des nuls ,permert de donner une valeur
+                        //parmis plusieur valeur dans un certain ordre et prendra la premiere 
+                        //valeur non-null ou la premier valaur
+                        let lo = null
+                        let la = null
+                        let le =54
+
+                        let lu = lo ?? la ?? le 
+                        //lu = 54
+
 
     </script>
 </body>
